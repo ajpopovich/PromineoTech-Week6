@@ -1,14 +1,14 @@
 # WAR-Card-Game
 Welcome to WAR, a Java-based rendition of the popular card game utilizing principles of object-oriented programming. This project brings the classic game of WAR to life in a digital format, providing an interactive and enjoyable gaming experience.
 
-Project Description
+Project Description: 
 WAR is a simple card game where players draw cards from a deck, and the player with the highest card wins. In case of a tie, a "war" occurs, leading to an exciting showdown until a winner emerges. This implementation replicates the rules and gameplay of the traditional card game.
 
-Key Features
+Key Features: 
 Interactive Gameplay: Enjoy an engaging gameplay experience as you compete against the computer in rounds of card drawing and wars.
 Object-Oriented Design: Built using principles of object-oriented programming, ensuring maintainability and extensibility of the codebase.
 
-Live Demo
+Live Demo: 
 https://drive.google.com/file/d/1STgVBhajyckPSMH7DJXEpFn-MVAjhcOv/view?usp=sharing
 
 Technologies Used:
