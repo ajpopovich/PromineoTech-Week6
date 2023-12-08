@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class DECK {
-    private List<CARD> cards;
+public class Deck {
+    private List<Card> cards;
 
-    public DECK() {
-        cards = new ArrayList<CARD>();
+    public Deck() {
+        cards = new ArrayList<Card>();
         initializeDeck();
     }
 
@@ -16,7 +16,7 @@ public class DECK {
         for (int value = 2; value <= 14; value++) {
             for (String suit : new String[] { "Hearts", "Diamonds", "Clubs", "Spades" }) {
                 String name = getValueName(value) + " of " + suit;
-                CARD card = new CARD(value, name);
+                Card card = new Card(value, name);
                 cards.add(card);
             }
         }
@@ -26,7 +26,7 @@ public class DECK {
         Collections.shuffle(cards);
     }
 
-    public CARD draw() {
+    public Card draw() {
         if (!cards.isEmpty()) {
             return cards.remove(0);
         } else {

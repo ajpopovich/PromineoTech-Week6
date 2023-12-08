@@ -4,14 +4,14 @@ package WAR;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PLAYER {
-    private List<CARD> hand;
+public class Player {
+    private List<Card> hand;
     private int score;
     private String name;
 
-    public PLAYER(String name) {
+    public Player(String name) {
         this.name = name;
-        hand = new ArrayList<CARD>();
+        hand = new ArrayList<Card>();
         score = 0;
     }
     
@@ -22,12 +22,12 @@ public class PLAYER {
 
     public void describe() {
         System.out.println("Player: " + name);
-        for (CARD card : hand) {
+        for (Card card : hand) {
             card.describe();
         }
     }
 
-    public CARD flip() {
+    public Card flip() {
         if (!hand.isEmpty()) {
             return hand.remove(0);
         } else {
@@ -35,8 +35,8 @@ public class PLAYER {
         }
     }
 
-    public void draw(DECK deck) {
-        CARD drawnCard = deck.draw();
+    public void draw(Deck deck) {
+        Card drawnCard = deck.draw();
         if (drawnCard != null) {
             hand.add(drawnCard);
         }

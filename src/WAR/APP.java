@@ -1,12 +1,10 @@
 package WAR;
-import java.util.ArrayList;
-import java.util.List;
 
-public class APP {
+public class App {
     public static void main(String[] args) {
-        DECK deck = new DECK();
-        PLAYER player1 = new PLAYER("ALEX");
-        PLAYER player2 = new PLAYER("ARYA");
+        Deck deck = new Deck();
+        Player player1 = new Player("Alex");
+        Player player2 = new Player("Arya");
 
         deck.shuffle();
 
@@ -16,8 +14,8 @@ public class APP {
         }
 
         for (int round = 1; round <= 26; round++) {
-            CARD card1 = player1.flip();
-            CARD card2 = player2.flip();
+            Card card1 = player1.flip();
+            Card card2 = player2.flip();
 
             System.out.println("Round " + round);
             System.out.println(player1.getName() + " flips:");
