@@ -11,10 +11,10 @@ Object-Oriented Design: Built using principles of object-oriented programming, e
 Live Demo
 https://drive.google.com/file/d/1STgVBhajyckPSMH7DJXEpFn-MVAjhcOv/view?usp=sharing
 
-Technologies Used
+Technologies Used:
 Java
 
-Favorite Features
+Favorite Features:
 Feature 1: Interactive Gameplay
 The implementation of the game logic, allowing seamless interaction between the player and the computer, was a rewarding challenge. Handling card draws, comparisons, and resolving wars efficiently was a key accomplishment.
 
@@ -22,7 +22,7 @@ Feature 2: Object-Oriented Design
 Employing a robust object-oriented approach enabled clean separation of concerns and facilitated future enhancements. Utilizing classes for cards, players, and the game itself streamlined the development process.
 
 Code Snippets
-java
+
 package WAR;
 
 public class App {
