@@ -23,10 +23,7 @@ Employing a robust object-oriented approach enabled clean separation of concerns
 
 Code Snippets
 
-package WAR;
 
-public class App {
-    public static void main(String[] args) {
         Deck deck = new Deck();
         Player player1 = new Player("Alex");
         Player player2 = new Player("Arya");
