@@ -68,4 +68,4 @@ Submit bug reports, feature requests, or pull requests via Github @ajpopovich
 For any inquiries or feedback, feel free to reach out:
 
 Email: popovich2614@gmail.com
-@ajpopovich on Instagram!
+@alexanderjohnpopovich on Instagram!
